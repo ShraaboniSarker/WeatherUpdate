@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Celsius"
+        android:id="@+id/celsius"
+        android:onClick="getDataType"/>
+    <item android:title="Fahrenheit"
+        android:id="@+id/fahrenheit"
+        android:onClick="getDataType"/>
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/search_icon"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:title="Reset"
+        android:id="@+id/reset"
+        android:onClick="getDataType"/>
+</menu>
